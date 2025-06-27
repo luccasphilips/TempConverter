@@ -1,0 +1,9 @@
+name: PermicaoGradlew
+description: "permite o gradle"
+
+runs:
+  using: "composite"
+  steps:
+    - name: Set Gradle Permission
+      run: chmod +x ./gradlew
+      shell: bash
