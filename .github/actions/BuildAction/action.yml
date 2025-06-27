@@ -1,0 +1,9 @@
+name: BuildGradle
+description: "Buildar o Gradle"
+
+runs:
+  using: "composite"
+  steps:
+    - name: Build Gradlew
+      run: ./gradlew build
+      shell: bash
